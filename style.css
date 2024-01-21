@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap') * {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header {
+    padding: 50px 130px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-img {
+    display: flex;
+    align-items: center;
+}
+nav .title-img h3{
+    font-size: 36px;
+    width: 201px;
+    /* height: 45px; */
+    top: 52px;
+    left: 207.63px;
+    padding-left: 10px;
+
+}
+
+nav .title-img .title-img-h3-style {
+    color: #FF5400;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav>ul li {
+    list-style: none;
+    margin-right: 40px;
+    /* font-family: Mulish; */
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    /* text-align: center; */
+}
+nav li a{
+    text-decoration: none;
+    color: #424247;
+}

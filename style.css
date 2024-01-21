@@ -27,7 +27,7 @@ nav .title-img h3{
 
 }
 
-nav .title-img .title-img-h3-style {
+nav .title-img .title-img-h3-style,nav li a .title-img-h3-style{
     color: #FF5400;
 }
 
@@ -48,4 +48,12 @@ nav>ul li {
 nav li a{
     text-decoration: none;
     color: #424247;
+}
+section{
+    display: block;
+}
+.section-background-img1{
+    width: 100%;
+    padding: 0 130px;
+    object-fit: cover;
 }
